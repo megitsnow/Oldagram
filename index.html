@@ -1,9 +1,38 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="images/logo.png">
+        <div class = "container">
+            <header>
+                <img src="images/logo.png" id="oldagram-logo">
+                <img src="images/Ari.JPG" class ="icon-pics">
+            </header>
+            <section id = "user-and-photo">
+                <div>
+                    <img src="images/avatar-courbet.jpg" class ="icon-pics">
+                </div>
+                <div id="username-location">
+                    <p class="user-name">Vincent Van gogh</p>
+                    <p class ="location">Zudert, Netherlands</p>
+                </div>
+            </section>
+            <section id = "post">
+                <img src="images/post-vangogh.jpg" id="user-img">
+            </section>
+            <section id = "likes-comments">
+                <div id = "icons-like-comment">
+                    <img src="images/icon-heart.png" class = "insta-icons">
+                    <img src="images/icon-comment.png" class = "insta-icons">
+                    <img src="images/icon-dm.png" class = "insta-icons">
+                </div>
+                <p class ="user-name other"> 20,000 Likes</p>
+                <p class ="user-name" >vincey <span class = "location"> Just took a few mushrooms</span></p>
+            </section>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
